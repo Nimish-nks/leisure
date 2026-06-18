@@ -42,7 +42,7 @@ Select from our trending destinations below. If you find a journey that speaks t
 
 <div style="width: 100%; max-width: 550px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; border: 1px solid #e1e8ed; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
   
-  <form action="https://docs.google.com/forms/u/0/d/11fraCaDA3U0KD15KiL3-Xsn8J6dgNSPegE-x6T4mhr0/formResponse" method="POST" target="_hidden_iframe">
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLScUlPRDRYVoN5_YwohDx3dGtuPJPbRGHD2-jieLBCezVyPbng/formResponse" method="POST" target="silent_submit_receiver" onsubmit="submitted=true;">
     
     <div style="margin-bottom: 20px;">
       <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Name</label>
@@ -55,8 +55,13 @@ Select from our trending destinations below. If you find a journey that speaks t
     </div>
 
     <div style="margin-bottom: 20px;">
+      <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Address / Location</label>
+      <input type="text" name="entry.1065046570" placeholder="e.g. Nehru Nagar" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
+    </div>
+
+    <div style="margin-bottom: 20px;">
       <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Phone Number</label>
-      <input type="tel" name="entry.1065046570" placeholder="+91 98765 43210" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
+      <input type="tel" name="entry.1166974658" placeholder="+91 98765 43210" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
     </div>
 
     <div style="margin-bottom: 20px;">
@@ -82,11 +87,14 @@ Select from our trending destinations below. If you find a journey that speaks t
   </form>
 </div>
 
-<iframe name="_hidden_iframe" id="_hidden_iframe" style="display:none;" onload="if(submitted) { alert('Thank you! Your enquiry has been submitted successfully.'); window.location.reload(); }"></iframe>
+<iframe name="silent_submit_receiver" id="silent_submit_receiver" style="display:none;" onload="handleFormConfirmation();"></iframe>
 
-<script>var submitted=false;</script>
 <script>
-  document.querySelector('form').addEventListener('submit', function() {
-    submitted = true;
-  });
+  var submitted = false;
+  function handleFormConfirmation() {
+    if (submitted) {
+      alert('Thank you! Your enquiry has been submitted successfully.');
+      window.location.reload();
+    }
+  }
 </script>
