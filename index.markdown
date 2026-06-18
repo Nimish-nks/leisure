@@ -25,3 +25,8 @@ layout: home
       style="position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px; background-color: #25d366; color: white; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s ease;">
        💬
    </a>
+
+<div style="width: 100%; max-width: 650px; margin-top: 20px; overflow: hidden; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  <!-- PASTE YOUR GOOGLE IFRAME CODE DIRECTLY BELOW THIS LINE -->
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUlPRDRYVoN5_YwohDx3dGtuPJPbRGHD2-jieLBCezVyPbng/viewform?embedded=true" width="640" height="1359" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
