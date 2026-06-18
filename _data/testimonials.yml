@@ -1,11 +1,11 @@
 - name: "Sarah Jenkins"
   location: "New York, USA"
-  avatar: "/assets/client_images/gallery1.jpg"
+  avatar: "assets/client_images/gallery1.jpg"
   quote: "The Mountain Adventure was life-changing! The guides were incredibly knowledgeable and the views were absolutely spectacular. Highly recommend!"
   rating: "⭐⭐⭐⭐⭐"
 
 - name: "David Chen"
   location: "Vancouver, Canada"
-  avatar: "/assets/client_images/gallery1.jpg"
+  avatar: "assets/client_images/gallery1.jpg"
   quote: "Booking the Beach Getaway was seamless. Everything was perfectly arranged, giving us complete peace of mind. Will definitely book again."
   rating: "⭐⭐⭐⭐⭐"

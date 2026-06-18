@@ -1,11 +1,11 @@
 - title: "Mountain Adventure"
   duration: "3 Days / 2 Nights"
   price: "$299"
-  image: "/assets/images/gallery2.jpg"
+  image: "assets/images/gallery2.jpg"
   description: "A breathtaking trekking experience through the scenic mountains."
 
 - title: "Beach Getaway"
   duration: "5 Days / 4 Nights"
   price: "$499"
-  image: "/assets/images/gallery3.jpg"
+  image: "assets/images/gallery3.jpg"
   description: "Relax on pristine white sands and enjoy crystal clear waters."
