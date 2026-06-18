@@ -15,16 +15,50 @@
             line-height: 1.6;
         }
         
-        /* Navbar Styling */
+        /* Navbar Styling with Background Image and Dark Tint overlay */
         header { 
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); 
+            background: linear-gradient(rgba(30, 60, 114, 0.65), rgba(42, 82, 152, 0.65)), url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
             color: white; 
-            padding: 3rem 1rem; 
+            padding: 4rem 1rem; 
             text-align: center;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        header h1 { margin: 0; font-size: 2.5rem; font-weight: 700; letter-spacing: -0.5px; }
-        header p { margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 0.9; }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.8rem; 
+            font-weight: 700; 
+            letter-spacing: -0.5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        }
+        header p { 
+            margin: 0.5rem 0 0 0; 
+            font-size: 1.2rem; 
+            opacity: 0.95; 
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+
+        /* Modernized Navigation Menu links */
+        header nav {
+            margin-top: 25px;
+        }
+        header nav a {
+            color: white; 
+            margin: 0 10px; 
+            text-decoration: none; 
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 18px;
+            border-radius: 20px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+        header nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
 
         /* Main Content Container */
         .wrapper { 
@@ -56,13 +90,13 @@
     <header>
         <h1>{{ site.title }}</h1>
         <p>Explore the world with clarity and comfort</p>
-        <!-- Add this navigation bar -->
-       <nav style="margin-top: 20px;">
-           <a href="./index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: 500;">Home</a>
-           <a href="./tours.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: 500;">Tour Packages</a>
-           <a href="./testimonials.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: 500;">Testimonials</a>
-	   <a href="./about.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: 500;">About Us</a>
-       </nav>
+        
+        <nav>
+            <a href="{{ '/index.html' | relative_url }}">Home</a>
+            <a href="{{ '/tours.html' | relative_url }}">Tour Packages</a>
+            <a href="{{ '/testimonials.html' | relative_url }}">Testimonials</a>
+            <a href="{{ '/about.html' | relative_url }}">About Us</a>
+        </nav>
     </header>
 
     <main class="wrapper">
@@ -72,15 +106,13 @@
     <footer>
         &copy; 2026 {{ site.title }}. Built with Jekyll & GitHub Pages.
     </footer>
-     <!-- Floating WhatsApp Button -->
-   <a href="https://wa.me/917289036645?text=Hi!%20I%20want%20to%20know%20more%20about%20your%20tours." 
-      target="_blank" 
-      rel="noopener noreferrer"
-      style="position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px; background-color: #25d366; color: white; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s ease;">
-       💬
-   </a>
+
+    <a href="https://wa.me/917289036645?text=Hi!%20I%20want%20to%20know%20more%20about%20your%20tours." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       style="position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px; background-color: #25d366; color: white; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s ease;">
+        💬
+    </a>
+
 </body>
 </html>
-
-
-

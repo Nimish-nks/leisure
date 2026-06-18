@@ -41,8 +41,7 @@ Select from our trending destinations below. If you find a journey that speaks t
 <h2>Enquire Now</h2>
 <p>Ready to book or have questions? Let us know which package interests you, and our team will reach out within 24 hours.</p>
 
-<div style="width: 100%; max-width: 650px; margin-top: 20px; overflow: hidden; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+<div style="width: 100%; max-width: 650px; margin: 20px auto 0 auto; overflow: hidden; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
   <!-- REMEMBER: Replace the placeholder below with your real Google Forms link -->
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUlPRDRYVoN5_YwohDx3dGtuPJPbRGHD2-jieLBCezVyPbng/viewform?embedded=true" width="640" height="1359" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
 </div>
