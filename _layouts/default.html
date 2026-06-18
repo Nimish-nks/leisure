@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; img-src 'self' https://images.unsplash.com data:; frame-src https://docs.google.com;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title | default: "Tour Packages" }}</title>
     <style>
@@ -107,12 +108,31 @@
         &copy; 2026 {{ site.title }}. Built with Jekyll & GitHub Pages.
     </footer>
 
-    <a href="https://wa.me/917289036645?text=Hi!%20I%20want%20to%20know%20more%20about%20your%20tours." 
-       target="_blank" 
-       rel="noopener noreferrer"
-       style="position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px; background-color: #25d366; color: white; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s ease;">
-        💬
-    </a>
+    <div id="contact-wrapper"></div>
 
+    <script>
+        // We split your phone number so malicious scrapers reading the HTML file see nothing
+        const countryCode = "91";
+        const bodyNumber = "7289036645";
+        const encodedText = "Hi!%20I%20want%20to%20know%20more%20about%20your%20tours.";
+        
+        // This dynamically injects the link only when a real browser renders the page
+        document.getElementById('contact-wrapper').innerHTML = `
+            <a href="https://wa.me/${countryCode}${bodyNumber}?text=${encodedText}" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px; background-color: #25d366; color: white; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s ease;">
+                💬
+            </a>
+        `;
+    </script>
+<script>
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.preventDefault();
+                alert('Images are protected by copyright.');
+            }
+        });
+    </script>
 </body>
 </html>
