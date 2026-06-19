@@ -157,7 +157,7 @@ Welcome to Leisure Holiday! We specialize in creating hand-crafted, immersive tr
     Shakarpur, Delhi, 110092
   </p>
   <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #64748b;">
-    📧 leisureholidaynet@gmail.com | 📞 +91 7289036645
+     📞 +91 7289036645
   </p>
 </div>
 
