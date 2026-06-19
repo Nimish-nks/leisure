@@ -105,12 +105,12 @@ Welcome to Leisure Holiday! We specialize in creating hand-crafted, immersive tr
 <div style="max-width: 550px; margin: 40px auto 20px auto; padding: 20px; border-radius: 8px; background-color: #f8fafc; border-left: 5px solid #1e3c72;">
   <h3 style="margin-top: 0; color: #1e3c72; font-size: 1.2rem;">📍 Our Head Office</h3>
   <p style="margin: 5px 0; color: #334155; line-height: 1.5;">
-    <strong>Leisure Holiday Co.</strong><br>
-    Plot No. 42, Block C, Near Nehru Nagar Metro Station,<br>
-    Nehru Nagar, Ghaziabad, Uttar Pradesh, 201001
+    <strong>Leisure Holiday </strong><br>
+    H.O.:A-212C, UG-1, Tirupati Plaza, Street No. 1, Vikas Marg<br>
+    Shakarpur, Delhi, 110092
   </p>
   <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #64748b;">
-    📧 support@leisureholiday.com | 📞 +91 70427 55682
+    📧 leisureholidaynet@gmail.com | 📞 +91 7289036645
   </p>
 </div>
 
