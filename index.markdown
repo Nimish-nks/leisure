@@ -87,7 +87,7 @@ Welcome to Leisure Holiday! We specialize in creating hand-crafted, immersive tr
 
       <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Address / Location</label>
 
-      <input type="text" name="entry.1065046570" placeholder="e.g. Nehru Nagar" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
+      <input type="text" name="entry.1065046570" placeholder="e.g. Delhi" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
 
     </div>
 
@@ -97,7 +97,7 @@ Welcome to Leisure Holiday! We specialize in creating hand-crafted, immersive tr
 
       <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Phone Number</label>
 
-      <input type="tel" name="entry.1166974658" placeholder="+91 98765 43210" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
+      <input type="tel" name="entry.1166974658" placeholder="+91 98765 ***89" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
 
     </div>
 

@@ -15,7 +15,7 @@ title: Our Tour Packages
   <p style="color: #333; font-size: 1rem; margin-bottom: 15px; max-width: 800px; margin-left: auto; margin-right: auto;">
     Your dream vacation shouldn't fit into a template. Whether it is a hidden gem not listed here, a personalized family milestone, or a custom solo expedition—<strong>we can curate any itinerary completely from scratch to match your budget and style!</strong>
   </p>
-  <a href="https://wa.me/917042755682" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">
+  <a href="https://wa.me/917289036645" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">
     💬 Customize My Trip via WhatsApp
   </a>
 </div>
@@ -49,7 +49,7 @@ title: Our Tour Packages
 
       <div style="padding: 0 20px 20px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
         <a href="#enquiry-form" onclick="selectTourPackage('{{ tour.title }}')" style="background-color: #1e3c72; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem;">Book Now</a>
-        <a href="https://wa.me/917042755682?text=Hi!+I'm+interested+in+the+{{ tour.title | url_encode }}+package." target="_blank" style="background-color: #25D366; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem; display: flex; align-items: center; justify-content: center; gap: 4px;">WhatsApp</a>
+        <a href="https://wa.me/917289036645?text=Hi!+I'm+interested+in+the+{{ tour.title | url_encode }}+package." target="_blank" style="background-color: #25D366; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem; display: flex; align-items: center; justify-content: center; gap: 4px;">WhatsApp</a>
       </div>
 
     </div>
@@ -79,7 +79,7 @@ title: Our Tour Packages
 
     <div style="margin-bottom: 20px;">
       <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #1e3c72;">Address / Location</label>
-      <input type="text" name="entry.1065046570" placeholder="e.g. Nehru Nagar" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
+      <input type="text" name="entry.1065046570" placeholder="e.g. Delhi" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; box-sizing: border-box; outline: none;">
     </div>
 
     <div style="margin-bottom: 20px;">
