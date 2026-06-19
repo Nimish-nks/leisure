@@ -157,9 +157,20 @@ Welcome to Leisure Holiday! We specialize in creating hand-crafted, immersive tr
     Shakarpur, Delhi, 110092
   </p>
   <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #64748b;">
-     📞 +91 7289036645
+     📞 <span id="secured_phone_display"></span>
   </p>
 </div>
+
+<script>
+  // On-load script to inject the phone number safely for real users only
+  (function() {
+    var secretKey = 'KzkxIDcyODkwMzY2NDU='; // Hidden phone string
+    var targetSpan = document.getElementById('secured_phone_display');
+    if (targetSpan) {
+      targetSpan.textContent = atob(secretKey);
+    }
+  })();
+</script>
 
 <iframe name="silent_submit_receiver" id="silent_submit_receiver" style="display:none;" onload="handleFormConfirmation();"></iframe>
 
