@@ -23,7 +23,7 @@ email: leisureholidaynet@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   iscover hand-crafted tour packages, breathtaking mountain adventures, and 
   serene beach getaways. Book your next unforgettable journey with expert local guides today.
-baseurl: "/leisure" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leisureholidaynet.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
