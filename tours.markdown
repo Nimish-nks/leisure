@@ -15,7 +15,7 @@ title: Our Tour Packages
   <p style="color: #333; font-size: 1rem; margin-bottom: 15px; max-width: 800px; margin-left: auto; margin-right: auto;">
     Your dream vacation shouldn't fit into a template. Whether it is a hidden gem not listed here, a personalized family milestone, or a custom solo expedition—<strong>we can curate any itinerary completely from scratch to match your budget and style!</strong>
   </p>
-  <a href="https://wa.me/917289036645" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">
+  <a href="#" onclick="openProtectedCustomWhatsApp(event)" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">
     💬 Customize My Trip via WhatsApp
   </a>
 </div>
@@ -49,7 +49,7 @@ title: Our Tour Packages
 
       <div style="padding: 0 20px 20px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
         <a href="#enquiry-form" onclick="selectTourPackage('{{ tour.title }}')" style="background-color: #1e3c72; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem;">Book Now</a>
-        <a href="https://wa.me/917289036645?text=Hi!+I'm+interested+in+the+{{ tour.title | url_encode }}+package." target="_blank" style="background-color: #25D366; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem; display: flex; align-items: center; justify-content: center; gap: 4px;">WhatsApp</a>
+        <a href="#" onclick="openProtectedTourWhatsApp(event, '{{ tour.title | escape }}')" style="background-color: #25D366; color: white; text-align: center; padding: 11px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 0.9rem; display: flex; align-items: center; justify-content: center; gap: 4px;">WhatsApp</a>
       </div>
 
     </div>
@@ -123,6 +123,24 @@ title: Our Tour Packages
     if (queryBox) {
       queryBox.value = "Hi, I am interested in booking your '" + packageName + "' package. Please share details and customize the plan for us.";
     }
+  }
+
+  // Decodes phone number on-the-fly for package cards
+  function openProtectedTourWhatsApp(event, tourTitle) {
+    event.preventDefault();
+    var secretKey = 'OTE3Mjg5MDM2NjQ1'; // Hidden phone identifier
+    var realNumber = atob(secretKey);
+    var textMessage = encodeURIComponent("Hi! I'm interested in the " + tourTitle + " package.");
+    window.open("https://wa.me/" + realNumber + "?text=" + textMessage, '_blank');
+  }
+
+  // Decodes phone number on-the-fly for custom banner
+  function openProtectedCustomWhatsApp(event) {
+    event.preventDefault();
+    var secretKey = 'OTE3Mjg5MDM2NjQ1'; 
+    var realNumber = atob(secretKey);
+    var textMessage = encodeURIComponent("Hi! I'm looking for a completely unique customized itinerary.");
+    window.open("https://wa.me/" + realNumber + "?text=" + textMessage, '_blank');
   }
 
   var submitted = false;
