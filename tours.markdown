@@ -6,7 +6,7 @@ title: Our Tour Packages
 <div style="text-align: center; margin-top: 50px; margin-bottom: 40px; padding: 0 15px;">
   <h2 style="color: #1e3c72; font-size: 2.2rem; margin-bottom: 15px;">Select From Our Trending Destinations Below</h2>
   <p style="color: #555; font-size: 1.1rem; max-width: 700px; margin: 0 auto; line-height: 1.6;">
-    If you find a journey that speaks to you, fill out the <strong>Booking Enquiry Form</strong> at the bottom of the page or just <strong>WhatsApp</strong> us instantly!
+    If you find a journey that speaks to you, fill out the <strong>Booking Enquiry Form</strong> at the bottom of the page or just <strong>WhatsApp</strong> us instantly! Note: the price mentioned are just to give you an idea of starting range. These can go high or low depending on requirements and market conditions. These prices consider 3 Star hotels.
   </p>
 </div>
 
