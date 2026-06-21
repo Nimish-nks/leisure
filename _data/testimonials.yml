@@ -16,6 +16,12 @@
   quote: "The 'Scenic South Hills' tour was magnificient. Highly recommend!"
   rating: "⭐⭐⭐⭐⭐"
 
+- name: "Sagar"
+  location: "India"
+  avatar: "assets/client_images/sagar.webp"
+  quote: "The 'Divine South India' tour with family covering Rameshwara, Kanyakumari and Kerala was blissful. Highly recommend!"
+  rating: "⭐⭐⭐⭐⭐"
+  
 - name: "Gaurav Prasad"
   location: "India"
   avatar: "assets/client_images/dummy.webp"
