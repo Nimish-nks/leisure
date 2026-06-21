@@ -1,3 +1,15 @@
+- name: "Anurag"
+  location: "India"
+  avatar: "assets/client_images/pune.webp"
+  quote: "Customized Maharashtra tour was memorable experience"
+  rating: "⭐⭐⭐⭐"
+  
+- name: "Nimish"
+  location: "India"
+  avatar: "assets/client_images/jaisalmer.webp"
+  quote: "Such an amazing experience booking the customize Jaisalmer tour with safari !"
+  rating: "⭐⭐⭐⭐"
+  
 - name: "Rajan Khetrapal"
   location: "India"
   avatar: "assets/client_images/dummy.webp"
@@ -8,6 +20,12 @@
   location: "India"
   avatar: "assets/client_images/dummy.webp"
   quote: "Such an amazing experience booking the Exotic Andaman Getaway! The team took care of all the tiny details perfectly, giving us total peace of mind. Super seamless process—will definitely book with them again."
+  rating: "⭐⭐⭐⭐⭐"
+
+- name: "Anupama"
+  location: "India"
+  avatar: "assets/client_images/udaipur.webp"
+  quote: "Customized Udaipur-Chittaurgarh tour and Majestic Kerala tour till now. My one stop for all family holiday."
   rating: "⭐⭐⭐⭐⭐"
   
 - name: "Sharad Gupta"
